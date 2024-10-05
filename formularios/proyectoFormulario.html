@@ -1,0 +1,50 @@
+<proyectoFormulario.html>
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Mi primer formulario</title>
+</head>
+<body>
+  <h1>formulario</h1>
+  <form action="otroHTML.html" method="post">
+    <p><label for="nombre"> nombre: <input type="text" id="nombre"></label></p>
+    <p></p><label for="apellido"> apellido: <input type="text" id="apellido"></label>
+    <p></p> <label for="edad"> edad: <input type="text" id="edad"></label> 
+    <p><label for="observacion"> observación: <textarea id="observacion"></textarea> </label></p> 
+    
+      <p><label> Estatura:
+       <select id="estatura">
+         <option value="< 1.50"> < 1.50mts </option>
+         <option value="1,50 a 1,60"> 1,51 a 1,61mts </option>  
+         <option value="1,61 a 1,70" selected> 1,61 a 1,70mts </option>
+         <option value="1,71 a 1,80"> 1,71 a 1,80mts </option>
+         <option value="> 1,80" disabled> > 1,80mts </option>
+         </select>
+        <label/></p>
+        
+        
+        <text>color de ojos:</text>
+        <br>
+        <input type="checkbox" value="marron">
+          <label>Marrón</label>
+        <br>
+        <input type="checkbox" value="verde">
+          <label>verde</label>
+        <br>
+        <input type="checkbox" value="celeste">
+          <label>Celeste</label>
+        <br>
+        <input type="checkbox" value="otro">
+          <label>otro</label>
+        <br>
+        <input type="radio" value="azul">
+          <label>Azul</label>
+        <br>
+        <input type="radio" value="amarillo">
+          <label>Amarillo</label>
+        <br>
+        <br>
+        <button type=submit> Enviar</button> 
+    </form>
+  </body>
+</html>
