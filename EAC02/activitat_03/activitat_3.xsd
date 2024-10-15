@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="series_escandinaves">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="serie" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nom" type="xs:string"/>
+                            <xs:element name="temporades" type="xs:integer"/>
+                            <xs:element name="actors">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="actor" maxOccurs="5" minOccurs="1" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="pais" type="xs:string"/>
+                            <xs:element name="any_inici">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                        <xs:minInclusive value="1900"/> 
+                                        <xs:maxExclusive value="2000"/> 
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="sinopsi" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="categoria" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Policial"/>
+                                    <xs:enumeration value="Suspense"/>
+                                    <xs:enumeration value="Polític"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:attribute>
+                        <xs:attribute name="durada_capitol" type="xs:integer" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
