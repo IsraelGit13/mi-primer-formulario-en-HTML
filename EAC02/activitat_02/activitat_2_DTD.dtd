@@ -1,0 +1,12 @@
+<!ELEMENT series_escandinaves (serie+)>
+<!ELEMENT serie (nom, temporades, actors, pais, any_inici, sinopsi)>
+<!ATTLIST serie
+          categoria (Policial | Suspense | Polític) #REQUIRED
+          durada_capitol CDATA #IMPLIED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT temporades (#PCDATA)>
+<!ELEMENT actors (actor+)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT any_inici (#PCDATA)>
+<!ELEMENT sinopsi (#PCDATA)>

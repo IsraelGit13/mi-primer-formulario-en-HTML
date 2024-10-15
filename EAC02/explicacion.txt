@@ -1,0 +1,27 @@
+Activitat_01:
+para que el archivo index.html cargue correctamente los estilos, 
+debe estar en el mismo directorio que el archivo styles.css.
+si quisiera ubicarlo en otro lado, habria que cambiar el "href" del
+link a que apunte a la nueva ruta.
+
+Activitat_02:
+En la Activitat_02 apareceran 4 archivos, 3 de ellos de la Activitat_02 
+y una imagen de la validacion del documento.
+
+Activitat_03:
+En la Activitat_03 vera 4 archivos, 3 de ellos los que se pide en
+la Activitat_03 y una imagen de validacion de documento.
+
+
+
+
+Para comprimir el trabajo para enviar, simplemente debo 
+comprimir EAC02.
+
+
+
+
+
+
+
+

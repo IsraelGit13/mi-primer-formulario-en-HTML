@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<series_escandinaves xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="activitat_3.xsd">
+    <serie categoria="Policial" durada_capitol="45">
+        <nom>Atrapats</nom>
+        <temporades>3</temporades>
+        <actors>
+            <actor>Ólafur Darri</actor>
+            <actor>Ilmur Kristjánsdóttir</actor>
+        </actors>
+        <pais>Islàndia</pais>
+        <any_inici>1999</any_inici> <!-- Cambiado a 1999 -->
+        <sinopsi>Descripción de la serie.</sinopsi>
+    </serie>
+    <serie categoria="Suspense">
+        <nom>Deadwind</nom>
+        <temporades>3</temporades>
+        <actors>
+            <actor>Pihla Viitala</actor>
+        </actors>
+        <pais>Finlàndia</pais>
+        <any_inici>1998</any_inici> 
+        <sinopsi>Descripción de la serie.</sinopsi>
+    </serie>
+    <serie categoria="Policial">
+        <nom>Wallander</nom>
+        <temporades>3</temporades>
+        <actors>
+            <actor>Krister Henriksson</actor>
+            <actor>Johanna Sällström</actor>
+        </actors>
+        <pais>Suecia</pais>
+        <any_inici>1997</any_inici> 
+        <sinopsi>Descripción de la serie.</sinopsi>
+    </serie>
+    <serie categoria="Polític">
+        <nom>Borgen</nom>
+        <temporades>4</temporades>
+        <actors>
+            <actor>Sidse Babett</actor>
+            <actor>Birgitte Hjort</actor>
+        </actors>
+        <pais>Dinamarca</pais>
+        <any_inici>1995</any_inici> 
+        <sinopsi>Descripción de la serie.</sinopsi>
+    </serie>
+    <serie categoria="Suspense">
+        <nom>El puente</nom>
+        <temporades>1</temporades>
+        <actors>
+            <actor>Nombre Actor</actor>
+        </actors>
+        <pais>Dinamarca</pais>
+        <any_inici>1996</any_inici> 
+        <sinopsi>Descripción de la serie.</sinopsi>
+    </serie>
+</series_escandinaves>
+
+
